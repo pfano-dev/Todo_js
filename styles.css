@@ -1,0 +1,132 @@
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #575757;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #eee;
+}
+
+.container {
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 35%;
+  margin-top: 1rem;
+  height: 90vh;
+}
+.line-through {
+  text-decoration: line-through;
+  color: #aaa6a6;
+}
+.header {
+  height: 30%;
+  background-image: url("https://img.freepik.com/free-photo/scenic-sunrise-high-mountains-alpes-generative-ai_191095-494.jpg");
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.clear {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#date {
+  position: absolute;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
+  bottom: 0rem;
+  left: 1rem;
+}
+.content {
+  height: 62%;
+  overflow-y: scroll;
+}
+
+#list {
+  margin: 0;
+
+  padding: 0;
+}
+.items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem 0 0.5rem;
+  margin-left: 0;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: #fbf2f2;
+  border-radius: 5px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.check {
+  color: #47cc47;
+  font-size: 1.2rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  font-weight: 800;
+}
+.bin {
+  color: #d79b4c;
+  font-size: 1.2rem;
+}
+.add-to-do {
+  height: 8%;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+  border-top: 1px gray solid;
+}
+.add-to-do .plus {
+  color: #0b67fb;
+  font-size: 2rem;
+  margin: 0 1rem 0 1rem;
+}
+
+#input {
+  padding: 0.5rem;
+  width: 70%;
+  border-radius: 0.3rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+}

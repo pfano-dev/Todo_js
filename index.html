@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7d58415804.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="overlay">
+          <div class="clear">
+            <i class="fa-solid fa-rotate"></i>
+          </div>
+          <div id="date" class="">date</div>
+        </div>
+      </div>
+
+      <div class="content">
+        <ul id="list">
+          <!-- <li class="items">
+            <div class="item">
+              <i class="fa-regular fa-circle uncheck"></i>
+              <p class="text line-through">Drink water</p>
+            </div>
+            <i class="fa-solid fa-trash-can bin"></i> -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="add-to-do">
+        <i class="fa-solid fa-circle-plus plus"></i>
+        <input id="input" type="text" placeholder="Add a to-do" />
+      </div>
+    </div>
+    <script src="./Todo.js"></script>
+  </body>
 </html>
